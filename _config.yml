@@ -1,0 +1,11 @@
+title: "247Handyman"
+author: "247Handyman"
+brand: 247Handyman
+email: contact@247handyman.co.uk
+description: "Professional handyman services"
+baseurl: ""
+url: "http://247handyman.co.uk/"
+
+# Build settings
+markdown: kramdown
+permalink: /:categories/:title.html

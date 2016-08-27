@@ -1,0 +1,45 @@
+.Header {
+	background: url('/images/hero.jpg') top center no-repeat;
+	background-size: cover;
+	padding: 60px 20px;
+	text-align: center;
+
+	@include medium {
+		height: 450px;
+		padding: 0;
+
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+	}
+
+	h1,
+	h2,
+	h3 {
+		font-family: $fontHighlight;
+		font-size: $fontLarge;
+		text-transform: uppercase;
+
+		@include medium {
+			font-size: $fontXLarge;
+		}
+
+		@include wide {
+			font-size: $fontXXLarge;
+		}
+	}
+
+	h2,
+	h3 {
+		font-size: $fontBase;
+
+		@include medium {
+			font-size: $fontMedium;
+		}
+
+		@include wide {
+			font-size: $fontLarge;
+		}
+	}
+}

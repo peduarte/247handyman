@@ -1,0 +1,51 @@
+/**
+*
+* Settings
+*
+**/
+
+$fontDefault: system, -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Lucida Grande";
+$fontHighlight: Futura, "Trebuchet MS", Arial, sans-serif;
+
+$lineHeight: 26px;
+
+// Defining font sizes
+$fontSmall: 13px;
+$fontBase: 16px;
+$fontMedium: 20px;
+$fontLarge: 26px;
+$fontXLarge: 42px;
+$fontXXLarge: 68px;
+$fontHuge: 110px;
+
+// Defining colors
+$colorWhite: #ffffff;
+$colorBlack: #000000;
+$colorRed: #cc0000;
+$colorYellow: #ffbc00;
+$colorFaded: lighten(#000000, 50%);
+
+// Animation
+$animationDelayMain: 800ms;
+$easeInQuart: cubic-bezier(0.895, 0.03, 0.685, 0.22);
+$easeOutQuart: cubic-bezier(0.165, 0.84, 0.44, 1);
+$easeInOutCirc: cubic-bezier(0.785, 0.135, 0.15, 0.86);
+$easeInOutQuad:  cubic-bezier(0.455, 0.03, 0.515, 0.955);
+
+@mixin small {
+    @media (min-width: 600px) {
+        @content;
+    }
+}
+
+@mixin medium {
+    @media (min-width: 800px) {
+        @content;
+    }
+}
+
+@mixin wide {
+    @media (min-width: 1050px) {
+        @content;
+    }
+}
