@@ -1,0 +1,22 @@
+[
+	{
+		"icon": "hammer-and-pick.svg",
+		"title": "Fully equipped",
+		"copy": "We never show up without our van, ready with all the tools, materials & machinery."
+	},
+	{
+		"icon": "family.svg",
+		"title": "Family business",
+		"copy": "We never show up without our van, ready with all the tools, materials & machinery."
+	},
+	{
+		"icon": "first-place-medal.svg",
+		"title": "Top rated",
+		"copy": "We never show up without our van, ready with all the tools, materials & machinery."
+	},
+	{
+		"icon": "umbrella-on-ground.svg",
+		"title": "Fully insured",
+		"copy": "We never show up without our van, ready with all the tools, materials & machinery."
+	}
+]

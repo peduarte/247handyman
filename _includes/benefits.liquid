@@ -1,0 +1,14 @@
+<div class="cf tc">
+	{% for benefit in site.data.benefits %}
+		<div class="fl-ns w-25-ns mb3 mb0-ns pv2 ph3">
+			{% if benefit.icon %}
+				<div class="center mb3" style="width: 44px; height: 44px;">
+					{% include svg/{{benefit.icon}} %}
+				</div>
+			{% endif %}
+
+			<h2 class="f5">{{ benefit.title }}</h2>
+			<p class="f5 lh-copy">{{ benefit.copy }}</p>
+		</div>
+	{% endfor %}
+</div>

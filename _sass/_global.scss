@@ -1,6 +1,28 @@
-h1, h2, h3, h4, h5 {
-	font-family: "futura-pt",sans-serif;
+h1, h2, h3, h4, h5, .futura {
+	font-family: "futura-pt", sans-serif;
 	font-style: normal;
-	font-weight: 700;
 	text-transform: uppercase;
+}
+
+
+.header-content {
+	@media screen and (min-width: 30em) {
+		top: 50%;
+		left: 50%;
+		transform: translate3d(-50%, -50%, 0);
+	}
+}
+
+.header-phone {
+	@media screen and (min-width: 30em) {
+		top: 0;
+		right: 0;
+	}
+}
+
+.header-email {
+	@media screen and (min-width: 30em) {
+		top: 0;
+		left: 0;
+	}
 }
