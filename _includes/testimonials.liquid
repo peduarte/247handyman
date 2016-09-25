@@ -4,7 +4,7 @@
 	{% for testimonial in site.data.testimonials %}
 		<div class="fl-ns w-50-ns mb3 mb0-ns pa2 {% cycle 'cl pr3', 'pl3' %}">
 			<h3 class="f5">{{ testimonial.title }}</h3>
-			<p>{{ testimonial.copy }}</p>
+			<p class="lh-copy">{{ testimonial.copy }}</p>
 			<p><a href="{{ testimonial.link }}">{{ testimonial.from }}</a></p>
 		</div>
 	{% endfor %}
