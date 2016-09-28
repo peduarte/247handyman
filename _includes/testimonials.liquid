@@ -1,8 +1,37 @@
 <h2 class="tc f2-ns">Testimonials</h2>
 
+<div class="cf tc pt2 mb5">
+	<div class="dib pr2 pr4-ns br b--black-10">
+		{% for 1 in (1..5) %}
+			<span class="dib" style="width: 20px;">{% include svg/white-medium-star.svg %}</span>
+		{% endfor %}
+		<h3 class="f5 ma0">
+			<a
+				class="link near-black"
+				href="https://www.yell.com/biz/247-handyman-co-uk-woodford-green-901468999/"
+				title="Yell Reviews"
+				target="blank"
+			>Yell</a>
+		</h3>
+	</div>
+	<div class="dib pl2 pl4-ns">
+		{% for 1 in (1..5) %}
+			<span class="dib" style="width: 20px;">{% include svg/white-medium-star.svg %}</span>
+		{% endfor %}
+		<h3 class="f5 ma0">
+			<a
+			class="link near-black"
+			href="https://www.google.co.uk/search?q=247handyman&oq=247handyman&aqs=chrome..69i57j69i60j69i61j69i59.2095j0j7&sourceid=chrome&ie=UTF-8#lrd=0x47d8a0cd6da6ebb9:0x8f2fc1c8122859ef,1,"
+			title="Yell Reviews"
+			target="blank"
+			>Google</a>
+		</h3>
+	</div>
+</div>
+
 <div class="cf">
 	{% for testimonial in site.data.testimonials %}
-		<div class="fl-ns w-50-ns mb3 mb0-ns pa2 {% cycle 'cl pr3', 'pl3' %}">
+		<div class="fl-ns w-50-ns mb3 mb0-ns pa2 {% cycle 'cl pr4-ns', 'pl4-ns' %}">
 			<h3 class="f5">{{ testimonial.title }}</h3>
 			<p class="lh-copy">{{ testimonial.copy }}</p>
 			<p><a href="{{ testimonial.link }}">{{ testimonial.from }}</a></p>
