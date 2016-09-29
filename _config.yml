@@ -4,8 +4,9 @@ author: "Pedro Duarte"
 email: help@247handyman.co.uk
 phone1: "07813 246 247"
 phone2: "08000 226 247"
-baseurl: ""
 url: "http://247handyman.co.uk/"
+baseurl: ""
+
 
 # Build settings
 markdown: kramdown
