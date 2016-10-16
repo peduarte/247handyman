@@ -3,7 +3,13 @@
 
 	<div class="pa4 pa0-ns absolute-ns mw7 header-content">
 		<h1 class="f3 f1-ns fw8 lh-solid ttu ma0">{{ site.title }}</h1>
-		<h2 class="f3 f1-ns fw8 lh-solid ttu ma0 light-silver">{{ site.description }}</h2>
+		<h2 class="f3 f1-ns fw8 lh-solid ttu ma0 light-silver">
+			{% if include.description %}
+				{{ include.description }}
+			{% else %}
+				{{ site.description }}
+			{% endif %}
+		</h2>
 	</div>
 
 	<div class="ph3 pa3-ns absolute-ns header-phone">
