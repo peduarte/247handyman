@@ -85,7 +85,7 @@ const Home = () => (
 
     <div style={{ backgroundColor: '#FFBC00' }}>
       <div className="mw8 ph3 pv5 center">
-        <h2 className="tc f2-ns">Get a free quote</h2>
+        <h2 className="tc f2-ns mt0">Get a free quote</h2>
         <div className="tc f4 lh-solid">
           <p className="ma0">07813 246 247 — 08000 226 247</p>
           <p className="ma0 mt1">
