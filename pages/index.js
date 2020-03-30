@@ -50,7 +50,7 @@ const Home = () => (
       <div className="mw8 ph3 pv5 center">
         <div className="cf tc">
           {benefits.map(benefit => (
-            <div className="fl-ns w-25-ns mb3 mb0-ns pv2 ph3">
+            <div key={benefit.title.trim()} className="fl-ns w-25-ns mb3 mb0-ns pv2 ph3">
               {benefit.icon && (
                 <div className="center mb3" style={{ width: 44, height: 44 }}>
                   <img src={`/${benefit.icon}`} />
