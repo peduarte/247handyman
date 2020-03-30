@@ -1,50 +1,20 @@
 import Head from 'next/head';
 import NextLink from 'next/link';
+import { Meta } from '../components/Meta.js';
 import { benefits } from '../data/benefits.js';
 import { testimonials } from '../data/testimonials.js';
 import { commonServices } from '../data/commonServices.js';
 
 const Home = () => (
   <div className="container">
-    <Head>
-      <link rel="icon" href="/favicon.ico" />
-      <meta charset="utf-8" />
-      <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
-      <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-      <title>247handyman</title>
-
-      <meta name="description" content="Home repairs expert since 2002" />
-      <meta name="author" content="Pedro Duarte" />
-
-      <meta property="og:url" content="https://247handyman.co.uk" />
-      <meta property="og:url" content="https://247handyman.co.uk" />
-      <meta property="og:image" content="https://247handyman.co.uk/hero.jpg" />
-      <meta property="og:description" content="Home repairs expert since 2002" />
-      <meta property="og:title" content="247Handyman" />
-
-      <meta property="og:url" content="https://247handyman.co.uk" />
-      <meta property="og:url" content="https://247handyman.co.uk" />
-      <meta property="og:image" content="https://247handyman.co.uk/hero.jpg" />
-      <meta property="og:description" content="Home repairs expert since 2002" />
-      <meta property="og:title" content="247Handyman" />
-
-      <meta name="twitter:url" content="https://247handyman.co.uk" />
-      <meta name="twitter:image" content="https://247handyman.co.uk/hero.jpg" />
-      <meta name="twitter:description" content="Home repairs expert since 2002" />
-      <meta name="twitter:title" content="247Handyman" />
-
-      <link rel="canonical" href="https://247handyman.co.uk" />
-      <link rel="image_src" href="https://247handyman.co.uk/hero.jpg" />
-      <link rel="shortcut icon" href="https://247handyman.co.uk/favicon.png" />
-    </Head>
+    <Meta />
 
     <header className="tc relative bg-near-white">
       <div className="cover relative" style={{ backgroundImage: 'url(/hero.jpg)', height: 0, paddingTop: '50%' }}></div>
 
       <div className="pa4 pa0-ns absolute-ns mw7 header-content">
-        <h1 className="f3 f1-ns fw8 lh-solid ttu ma0">247Handyman</h1>
-        <h2 className="f3 f1-ns fw8 lh-solid ttu ma0 light-silver">Home repairs expert since 2002</h2>
+        <h1 className="f3 f2-m f1-l fw8 lh-solid ttu ma0">247Handyman</h1>
+        <h2 className="f3 f2-m f1-l fw8 lh-solid ttu ma0 light-silver">Home repairs expert since 2002</h2>
       </div>
 
       <div className="ph3 pa3-ns absolute-ns header-phone">
