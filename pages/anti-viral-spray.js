@@ -7,7 +7,7 @@ const AntiViral = () => (
   <div className="container">
     <Meta description="Anti-viral outdoor spray and fog service" />
 
-    <header className="tc relative bg-black">
+    <header className="tc relative bg-near-black">
       <div
         className="cover bg-bottom relative o-80"
         style={{ backgroundImage: 'url(/spray.jpg)', height: 0, paddingTop: '50%' }}

@@ -28,6 +28,24 @@ const Home = () => (
       </div>
     </header>
 
+    <div className="bg-near-black white">
+      <div className="mw8 ph3 pv5 center">
+        <h2 className="tc f2-ns mt0 red lh-solid mb0">NEW</h2>
+        <h2 className="tc f2-ns mt0">Anti-viral outdoor spray and Fog service</h2>
+        <div className="tc f4 lh-solid">
+          <p className="measure tc center lh-copy">
+            We are introducing a new service to contribute to the eradication of this pandemic and therefore help the
+            NHS to cope with the high demand for patients.
+          </p>
+          <p className="mb0 mt5 f5">
+            <NextLink href="/anti-viral-spray">
+              <a className="link white hover-bg-dark-red b pv3 ph4 bg-light-red br1">Find out more</a>
+            </NextLink>
+          </p>
+        </div>
+      </div>
+    </div>
+
     <div>
       <div className="mw8 ph3 pv5 center">
         <div className="cf tc">
