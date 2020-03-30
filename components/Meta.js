@@ -16,6 +16,8 @@ export const Meta = ({ title = '247Handyman', description = 'Home repairs expert
       <meta name="description" content={description} />
       <meta name="author" content="Pedro Duarte" />
 
+      <meta name="format-detection" content="telephone=no" />
+
       <meta property="og:url" content="https://247handyman.co.uk" />
       <meta property="og:url" content="https://247handyman.co.uk" />
       <meta property="og:image" content="https://247handyman.co.uk/hero.jpg" />

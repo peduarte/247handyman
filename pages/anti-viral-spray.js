@@ -33,8 +33,8 @@ const AntiViral = () => (
       <div className="mw8 ph3 pv5 center">
         <h2 className="tc f2-ns">About this service</h2>
         <p className="measure tc center lh-copy">
-          In order to help prevent the spread of COVID-19, we're introducing a new service exclusively to 247Handyman
-          customers.
+          We are introducing a new service to contribute to the eradication of this pandemic and therefore help the NHS
+          to cope with the high demand for patients.
         </p>
 
         <h3 className="tc f3-ns mt5">What is it?</h3>
@@ -56,7 +56,7 @@ const AntiViral = () => (
         </p>
         <p className="measure tc center lh-copy mt4">
           A professional with all personal protective equipment, using a spray machine sprays a disinfectant solution
-          killing the viruses and bacterias at practically 100% (99.999%).
+          killing the viruses and bacterias at 99.999%.
         </p>
         <p className="measure tc center lh-copy mt4">All payments are online - paypal or bank transfer.</p>
         <p className="measure tc center lh-copy mt4">You can order a single application or multi applications.</p>
