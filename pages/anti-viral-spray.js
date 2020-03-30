@@ -2,6 +2,7 @@ import Head from 'next/head';
 import NextLink from 'next/link';
 import { Meta } from '../components/Meta.js';
 import { services } from '../data/services.js';
+import { commonServices } from '../data/commonServices.js';
 
 const AntiViral = () => (
   <div className="container">
@@ -100,7 +101,7 @@ const AntiViral = () => (
     </div>
 
     <div>
-      <div className="mw8 ph3 pv5 center">
+      <div className="mw6 ph3 pv5  center">
         <h2 className="tc f2-ns">FAQ</h2>
         <p className="measure tc center lh-copy">Below are the answers to some frequently asked questions</p>
 
@@ -158,6 +159,66 @@ const AntiViral = () => (
             </a>
           </p>
         </div>
+      </div>
+    </div>
+
+    <div className="bg-near-white">
+      <div className="mw8 ph3 pv5 center">
+        <h2 className="tc f2-ns">Locations</h2>
+        <ul className="lh-copy list tc pa0">
+          <li>Abridge</li>
+          <li>Barkingside</li>
+          <li>Buckhurst Hill</li>
+          <li>Chigwell</li>
+          <li>Chingford</li>
+          <li>Clayhall</li>
+          <li>Debden</li>
+          <li>Epping Forest</li>
+          <li>Ilford</li>
+          <li>Loughton</li>
+          <li>Redbridge</li>
+          <li>Romford</li>
+          <li>South Woodford</li>
+          <li>Theydon Bois</li>
+          <li>Walthan Abbey</li>
+          <li>Wanstead</li>
+          <li>Woodford</li>
+        </ul>
+      </div>
+    </div>
+
+    <div>
+      <div className="mw8 ph3 pv5 center">
+        <h2 className="tc f2-ns">Other services</h2>
+
+        <p className="measure tc center lh-copy">We offer a variety of services, here are the most popular ones</p>
+
+        <div className="cf tc">
+          {commonServices.map((service, i) => (
+            <div key={service.title.trim()} className="fl-ns w-25-ns mb3 mb0-ns pv2 ph3">
+              {service.icon && (
+                <div className="center mb3" style={{ width: 40, height: 40 }}>
+                  <img src={service.icon} />
+                </div>
+              )}
+
+              <h3 className="f5">{service.title}</h3>
+              <ul className="list pa0 lh-copy f5">
+                {service.list.map((item, index) => (
+                  <li key={item + i}>{item}</li>
+                ))}
+              </ul>
+            </div>
+          ))}
+        </div>
+
+        <p className="mt3 measure tc center lh-copy">
+          Can't find what you're after? Hop over to our{' '}
+          <NextLink href="/services">
+            <a className="link near-black hover-silver b">Services page</a>
+          </NextLink>{' '}
+          for a more complete list!
+        </p>
       </div>
     </div>
 

@@ -39,7 +39,7 @@ const Home = () => (
           </p>
           <p className="mb0 mt5 f5">
             <NextLink href="/anti-viral-spray">
-              <a className="link white hover-bg-dark-red b pv3 ph4 bg-light-red br1">Find out more</a>
+              <a className="link white hover-bg-dark-red b pv3 ph4 bg-red br1">Find out more</a>
             </NextLink>
           </p>
         </div>
