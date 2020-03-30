@@ -94,7 +94,7 @@ const AntiViral = () => (
             all the protection you can buy multiple applications).
           </li>
           <li className="lh-copy">When you book multiple applications you are guaranteed to be served.</li>
-          <li>Our chemical solution is harmful to the surfaces , people, animals and plants.</li>
+          <li>Our chemical solution is not harmful to the surfaces , people, animals and plants.</li>
         </ol>
       </div>
     </div>
