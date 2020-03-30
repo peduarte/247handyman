@@ -100,6 +100,21 @@ const AntiViral = () => (
       </div>
     </div>
 
+    <div className="bg-near-black white">
+      <div className="mw8 ph3 pv5 center">
+        <h2 className="tc f2-ns mt0 red">Book now</h2>
+        <div className="tc f4 lh-solid">
+          <p className="measure tc center lh-copy">Slots are limited and are on a first come first served basis.</p>
+          <p className="mb0 mt4">07813 246 247 — 08000 226 247</p>
+          <p className="ma0 mt1">
+            <a href="mailto:help@247handyman.co.uk" className="link white">
+              help@247handyman.co.uk
+            </a>
+          </p>
+        </div>
+      </div>
+    </div>
+
     <div>
       <div className="mw6 ph3 pv5  center">
         <h2 className="tc f2-ns">FAQ</h2>
