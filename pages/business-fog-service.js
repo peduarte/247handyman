@@ -47,13 +47,12 @@ const BusinessFogService = () => {
             sanitation.
           </p>
 
-          <h3 className="tc f3-ns mt5">Where is it done?</h3>
+          <h3 className="tc f3-ns mt5">How is it done?</h3>
           <p className="measure tc center lh-copy">
             We use a disinfection machine - an intelligent fogger sprayer and an environmental friendly product that
             kills 99.99% of microorganisms while removing the biofilm, mould and organic residue.
           </p>
 
-          <h3 className="tc f3-ns mt5">How is it done?</h3>
           <p className="measure tc center lh-copy">
             The disinfectant acts against norovirus and a broad spectrum of bacterias and viruses protecting your
             facilities and areas.
