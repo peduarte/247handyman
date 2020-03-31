@@ -1,0 +1,7 @@
+{
+  "env": {
+    "TWILIO_SID": "@247-twilio-sid",
+    "TWILIO_TOKEN": "@247-twilio-token",
+    "TWILIO_NUMBER": "@247-twilio-number"
+  }
+}

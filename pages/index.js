@@ -37,9 +37,11 @@ const Home = () => (
             We are introducing a new service to contribute to the eradication of this pandemic and therefore help the
             NHS to cope with the high demand for patients.
           </p>
-          <p className="mb0 mt5 f5">
+          <p className="mb0 mt5 f5 mw5 center">
             <NextLink href="/anti-viral-spray">
-              <a className="link white hover-bg-dark-red b pv3 ph4 bg-red br1">Find out more</a>
+              <a className="link button-reset flex items-center justify-center h2 f5 ph3 bg-red hover-bg-dark-red white bn lh-solid br1 tc">
+                Find out more
+              </a>
             </NextLink>
           </p>
         </div>

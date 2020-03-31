@@ -4,261 +4,321 @@ import { Meta } from '../components/Meta.js';
 import { services } from '../data/services.js';
 import { commonServices } from '../data/commonServices.js';
 
-const AntiViral = () => (
-  <div className="container">
-    <Meta description="Anti-viral outdoor spray and fog service" />
+const AntiViral = () => {
+  const [hasSubmitted, setHasSubmitted] = React.useState(false);
 
-    <header className="tc relative bg-near-black">
-      <div
-        className="cover bg-bottom relative o-80"
-        style={{ backgroundImage: 'url(/spray.jpg)', height: 0, paddingTop: '50%' }}
-      ></div>
+  return (
+    <div className="container">
+      <Meta description="Anti-viral outdoor spray and fog service" />
 
-      <div className="pa4 pa0-ns absolute-ns w-90 center header-content">
-        <h1 className="f3 f2-m f1-l fw8 lh-solid ttu ma0 gold">247Handyman</h1>
-        <h2 className="f3 f2-m f1-l fw8 lh-solid ttu ma0 white">Anti-viral outdoor spray and Fog service</h2>
-      </div>
+      <header className="tc relative bg-near-black">
+        <div
+          className="cover bg-bottom relative o-80"
+          style={{ backgroundImage: 'url(/spray.jpg)', height: 0, paddingTop: '50%' }}
+        ></div>
 
-      <div className="ph3 pa3-ns absolute-ns header-phone">
-        <span className="f5 ttu white">07813 246 247 – 08000 226 247</span>
-      </div>
+        <div className="pa4 pa0-ns absolute-ns w-90 center header-content">
+          <h1 className="f3 f2-m f1-l fw8 lh-solid ttu ma0 gold">247Handyman</h1>
+          <h2 className="f3 f2-m f1-l fw8 lh-solid ttu ma0 white">Anti-viral outdoor spray and Fog service</h2>
+        </div>
 
-      <div className="ph3 pb4 pa3-ns absolute-ns header-email">
-        <a href="mailto:help@247handyman.co.uk" className="f5 ttu link white hover-silver">
-          help@247handyman.co.uk
-        </a>
-      </div>
-    </header>
+        <div className="ph3 pa3-ns absolute-ns header-phone">
+          <span className="f5 ttu white">07813 246 247 – 08000 226 247</span>
+        </div>
 
-    <div>
-      <div className="mw8 ph3 pv5 center">
-        <h2 className="tc f2-ns">About this service</h2>
-        <p className="measure tc center lh-copy">
-          We are introducing a new service to contribute to the eradication of this pandemic and therefore help the NHS
-          to cope with the high demand for patients.
-        </p>
+        <div className="ph3 pb4 pa3-ns absolute-ns header-email">
+          <a href="mailto:help@247handyman.co.uk" className="f5 ttu link white hover-silver">
+            help @247handyman.co.uk
+          </a>
+        </div>
+      </header>
 
-        <h3 className="tc f3-ns mt5">What is it?</h3>
-        <p className="measure tc center lh-copy">
-          Disinfection and sanitation of surfaces and floor areas to prevent and stop the spread of viruses and
-          bacterias.
-        </p>
+      <div>
+        <div className="mw8 ph3 pv5 center">
+          <h2 className="tc f2-ns">About this service</h2>
+          <p className="measure tc center lh-copy">
+            e introducing a new service to contribute to the eradication of this pandemic and therefore help the NHS to
+            cope with the high demand for patients.
+          </p>
 
-        <h3 className="tc f3-ns mt5">Where is it done?</h3>
-        <p className="measure tc center lh-copy">
-          Outside your house or your business, mainly on the footpath area, near the porch or front door, on the
-          driveway, on the tyres of your car (if it is parked on the driveway) and surrounding areas.
-        </p>
+          <h3 className="tc f3-ns mt5">What is it?</h3>
+          <p className="measure tc center lh-copy">
+            fection and sanitation of surfaces and floor areas to prevent and stop the spread of viruses and bacterias.
+          </p>
 
-        <h3 className="tc f3-ns mt5">How is it done?</h3>
-        <p className="measure tc center lh-copy">
-          The service is done with no contact with the house or business occupants. You don't need to meet us in front
-          of your house or premises. Stay inside!
-        </p>
-        <p className="measure tc center lh-copy mt4">
-          A professional with all personal protective equipment, using a spray machine sprays a disinfectant solution
-          killing the viruses and bacterias at 99.999%.
-        </p>
-        <p className="measure tc center lh-copy mt4">All payments are online - paypal or bank transfer.</p>
-        <p className="measure tc center lh-copy mt4">You can order a single application or multi applications.</p>
-        <p className="measure tc center lh-copy mt4">
-          {' '}
-          At this stage of the coronavirus infection we recommend 2 applications per week.
-        </p>
-      </div>
-    </div>
+          <h3 className="tc f3-ns mt5">Where is it done?</h3>
+          <p className="measure tc center lh-copy">
+            de your house or your business, mainly on the footpath area, near the porch or front door, on the driveway,
+            on the tyres of your car (if it is parked on the driveway) and surrounding areas.
+          </p>
 
-    <div className="bg-near-white">
-      <div className="mw8 ph3 pv5 center">
-        <h2 className="tc f2-ns">Packages</h2>
-        <p className="measure tc center lh-copy">We've come up with a few packages you can choose from.</p>
-        <p className="measure tc center lh-copy i">
-          <strong>Please note:</strong> All payments must be done via PayPal or Bank Transfer in advance.
-        </p>
-
-        <ul className="measure center mt4">
-          <li className="lh-copy">Single application - £35</li>
-          <li className="lh-copy">4 applications (1 per week) - £130</li>
-          <li className="lh-copy">8 applications (2 per week) - £250</li>
-          <li className="lh-copy">12 applications (3 per week) - £360</li>
-          <li className="lh-copy">20 applications (5 per week) - £600</li>
-        </ul>
-
-        <h3 className="tc f3-ns mt5">Bear in mind</h3>
-
-        <ol className="measure center mt4">
-          <li className="lh-copy">
-            We have limited slots available so when we reach our capacity we will stop bookings until further notice.
-          </li>
-          <li className="lh-copy">
-            Each application is limited to a maximum of 15 minutes of spraying (so if you have a big property and want
-            all the protection you can buy multiple applications).
-          </li>
-          <li className="lh-copy">When you book multiple applications you are guaranteed to be served.</li>
-          <li>Our chemical solution is not harmful to the surfaces , people, animals and plants.</li>
-        </ol>
-      </div>
-    </div>
-
-    <div className="bg-near-black white">
-      <div className="mw8 ph3 pv5 center">
-        <h2 className="tc f2-ns mt0 red">Book now</h2>
-        <div className="tc f4 lh-solid">
-          <p className="measure tc center lh-copy">Slots are limited and are on a first come first served basis.</p>
-          <p className="mb0 mt4">07813 246 247 — 08000 226 247</p>
-          <p className="ma0 mt1">
-            <a href="mailto:help@247handyman.co.uk" className="link white">
-              help@247handyman.co.uk
-            </a>
+          <h3 className="tc f3-ns mt5">How is it done?</h3>
+          <p className="measure tc center lh-copy">
+            ervice is done with no contact with the house or business occupants.You don't need to meet us in front of
+            your house or premises.Stay inside!
+          </p>
+          <p className="measure tc center lh-copy mt4">
+            fessional with all personal protective equipment, using a spray machine sprays a disinfectant solution
+            killing the viruses and bacterias at 99.999%.
+          </p>
+          <p className="measure tc center lh-copy mt4">All payments are online - paypal or bank transfer.</p>
+          <p className="measure tc center lh-copy mt4">You can order a single application or multi applications.</p>
+          <p className="measure tc center lh-copy mt4">
+            {' '}
+            At this stage of the coronavirus infection we recommend 2 applications per week.
           </p>
         </div>
       </div>
-    </div>
 
-    <div>
-      <div className="mw6 ph3 pv5  center">
-        <h2 className="tc f2-ns">FAQ</h2>
-        <p className="measure tc center lh-copy">Below are the answers to some frequently asked questions</p>
-
-        <h3 className="tc f5-ns mt5">
-          Do existing coronavirus disinfectant sprays protect against this new coronavirus?
-        </h3>
-
-        <p className="measure tc center lh-copy mt4">
-          Given the Wuhan Coronavirus is new, no one can yet test their coronavirus disinfectant products specifically
-          against this strain of the virus. However, coronaviruses are part of the “enveloped viruses” family, which
-          includes other well-known and identified diseases such as influenza.
-        </p>
-        <p className="measure tc center lh-copy mt4">
-          Current coronavirus disinfectant sprays have been tested against existing enveloped viruses and have been
-          proven to be effective at destroying those germs.
-        </p>
-        <p className="measure tc center lh-copy mt4">
-          Because of their proven effectiveness against other viruses in the same family, there is confidence existing
-          disinfection sprays will work on this new strain.
-        </p>
-
-        <h3 className="tc f5-ns mt5">What is coronavirus?</h3>
-
-        <p className="measure tc center lh-copy mt4">
-          Coronavirus is the overarching name given to a family of viruses which includes many strains, some of which
-          have been responsible for other global crises such as the SARS (Severe Acute Respiratory Syndrome) outbreak in
-          2002.
-        </p>
-        <p className="measure tc center lh-copy mt4">
-          Coronaviruses are transmitted between humans and animals, and can cause a range of illnesses from common colds
-          to more severe respiratory diseases2. It is understood the virus is predominantly spread via close contact
-          with an infected person who has the symptoms of the illness such as breathing difficulties, fever, cough or
-          shortness of breath.
-        </p>
-        <p className="measure tc center lh-copy mt4">
-          This new strain of coronavirus has been named "COVID-19" and is being commonly referred to as the Wuhan
-          Coronavirus, based on the area where it originated in China.
-        </p>
-        <p className="measure tc center lh-copy mt4">
-          While the World Health Organisation (WHO) works with agencies across the world to develop specific medicines,
-          treatments and vaccines, a key focus of efforts has been to try and prevent the spread of the virus through
-          travel and good hygiene practices.
-        </p>
-      </div>
-    </div>
-
-    <div style={{ backgroundColor: '#FFBC00' }}>
-      <div className="mw8 ph3 pv5 center">
-        <h2 className="tc f2-ns mt0">Get a free quote</h2>
-        <div className="tc f4 lh-solid">
-          <p className="ma0">07813 246 247 — 08000 226 247</p>
-          <p className="ma0 mt1">
-            <a href="mailto:help@247handyman.co.uk" className="link near-black">
-              help@247handyman.co.uk
-            </a>
+      <div className="bg-near-white">
+        <div className="mw8 ph3 pv5 center">
+          <h2 className="tc f2-ns">Packages</h2>
+          <p className="measure tc center lh-copy">We've come up with a few packages you can choose from.</p>
+          <p className="measure tc center lh-copy i">
+            <strong>Please note:</strong> All payments must be done via PayPal or Bank Transfer in advance.
           </p>
+
+          <ul className="measure center mt4">
+            <li className="lh-copy">Single application - £35</li>
+            <li className="lh-copy">4 applications (1 per week) - £130</li>
+            <li className="lh-copy">8 applications (2 per week) - £250</li>
+            <li className="lh-copy">12 applications (3 per week) - £360</li>
+            <li className="lh-copy">20 applications (5 per week) - £600</li>
+          </ul>
+
+          <h3 className="tc f3-ns mt5">Bear in mind</h3>
+
+          <ol className="measure center mt4">
+            <li className="lh-copy">
+              We have limited slots available so when we reach our capacity we will stop bookings until further notice.
+            </li>
+            <li className="lh-copy">
+              pplication is limited to a maximum of 15 minutes of spraying (so if you have a big property and want all
+              the protection you can buy multiple applications).
+            </li>
+            <li className="lh-copy">When you book multiple applications you are guaranteed to be served.</li>
+            <li>Our chemical solution is not harmful to the surfaces , people, animals and plants.</li>
+          </ol>
         </div>
       </div>
-    </div>
 
-    <div className="bg-near-white">
-      <div className="mw8 ph3 pv5 center">
-        <h2 className="tc f2-ns">Locations</h2>
-        <ul className="lh-copy list tc pa0">
-          <li>Abridge</li>
-          <li>Barkingside</li>
-          <li>Buckhurst Hill</li>
-          <li>Chigwell</li>
-          <li>Chingford</li>
-          <li>Clayhall</li>
-          <li>Debden</li>
-          <li>Epping Forest</li>
-          <li>Ilford</li>
-          <li>Loughton</li>
-          <li>Redbridge</li>
-          <li>Romford</li>
-          <li>South Woodford</li>
-          <li>Theydon Bois</li>
-          <li>Walthan Abbey</li>
-          <li>Wanstead</li>
-          <li>Woodford</li>
-        </ul>
-      </div>
-    </div>
+      <div className="bg-near-black white">
+        <div className="mw8 ph3 pv5 center">
+          <h2 className="tc f2-ns mt0 red">Book now</h2>
+          <div className="tc f4 lh-solid">
+            <p className="measure tc center lh-copy">Slots are limited and are on a first come first served basis.</p>
 
-    <div>
-      <div className="mw8 ph3 pv5 center">
-        <h2 className="tc f2-ns">Other services</h2>
+            <h3 className="tc f3-ns mt5">Request a callback</h3>
+            <form
+              onSubmit={(event) => {
+                event.preventDefault();
+                const { name: nameInput, number: numberInput } = event.target.elements;
+                const name = nameInput.value;
+                const number = numberInput.value;
+                fetch('/api/text', {
+                  method: 'POST',
+                  headers: {
+                    'Content-Type': 'application/json',
+                  },
+                  body: JSON.stringify({ name, number }),
+                })
+                  .then((res) => res.json())
+                  .then((data) => {
+                    setHasSubmitted(true);
+                  });
+              }}
+            >
+              <div className="mw5 center">
+                <input
+                  required
+                  disabled={hasSubmitted}
+                  name="name"
+                  type="text"
+                  placeholder="Name"
+                  className="input-reset flex items-center w-100 h2 f5 ph3 bn lh-solid br1 tc"
+                />
+              </div>
 
-        <p className="measure tc center lh-copy">We offer a variety of services, here are the most popular ones</p>
+              <div className="mw5 center mt2">
+                <input
+                  required
+                  disabled={hasSubmitted}
+                  name="number"
+                  type="tel"
+                  placeholder="Mobile number"
+                  className="input-reset flex items-center w-100 h2 f5 ph3 bn lh-solid br1 tc"
+                />
+              </div>
 
-        <div className="cf tc">
-          {commonServices.map((service, i) => (
-            <div key={service.title.trim()} className="fl-ns w-25-ns mb3 mb0-ns pv2 ph3">
-              {service.icon && (
-                <div className="center mb3" style={{ width: 40, height: 40 }}>
-                  <img src={service.icon} />
-                </div>
-              )}
+              <div className="mw5 center mt2">
+                <button
+                  disabled={hasSubmitted}
+                  className={`button-reset flex items-center w-100 justify-center h2 f5 ph3 bn lh-solid br1 tc ${
+                    hasSubmitted ? 'bg-gold black' : 'bg-red hover-bg-dark-red white'
+                  }`}
+                  type="submit"
+                >
+                  {!hasSubmitted ? `Call me` : `We'll call you back`}
+                </button>
+              </div>
+            </form>
 
-              <h3 className="f5">{service.title}</h3>
-              <ul className="list pa0 lh-copy f5">
-                {service.list.map((item, index) => (
-                  <li key={item + i}>{item}</li>
-                ))}
-              </ul>
-            </div>
-          ))}
-        </div>
+            <h3 className="tc f3-ns mt5">Get in touch</h3>
 
-        <p className="mt3 measure tc center lh-copy">
-          Can't find what you're after? Hop over to our{' '}
-          <NextLink href="/services">
-            <a className="link near-black hover-silver b">Services page</a>
-          </NextLink>{' '}
-          for a more complete list!
-        </p>
-      </div>
-    </div>
-
-    <div className="bg-dark-gray white">
-      <div className="mw8 ph3 pv5 center">
-        <div className="cf">
-          <div className="fl-ns w-25-ns mb3 mb0-ns pv2 pr3">
-            <h3 className="f5">Contact</h3>
-            <ul className="list pa0 lh-copy f5">
-              <li>
-                <a href="mailto:help@247handyman.co.uk" className="link white hover-silver">
-                  help@247handyman.co.uk
-                </a>
-              </li>
-              <li>07813 246 247</li>
-              <li>08000 226 247</li>
-              <li></li>
-            </ul>
+            <p className="mb0 mt4">07813 246 247 — 08000 226 247</p>
+            <p className="ma0 mt1">
+              <a href="mailto:help@247handyman.co.uk" className="link white">
+                help @247handyman.co.uk
+              </a>
+            </p>
           </div>
         </div>
+      </div>
 
-        <p className="mt5 white-50 tr">&copy; 2020 247Handyman. All rights reserved.</p>
+      <div>
+        <div className="mw6 ph3 pv5  center">
+          <h2 className="tc f2-ns">FAQ</h2>
+          <p className="measure tc center lh-copy">Below are the answers to some frequently asked questions</p>
+
+          <h3 className="tc f5-ns mt5">
+            Do existing coronavirus disinfectant sprays protect against this new coronavirus?
+          </h3>
+
+          <p className="measure tc center lh-copy mt4">
+            the Wuhan Coronavirus is new , no one can yet test their coronavirus disinfectant products specifically his
+            strain of the virus.However, coronaviruses are part of the “enveloped viruses” family, which includes other
+            well-known and identified diseases such as influenza.
+          </p>
+          <p className="measure tc center lh-copy mt4">
+            Current coronavirus disinfectant sprays have been tested against existing enveloped viruses and have been
+            proven to be effective at destroying those germs.
+          </p>
+          <p className="measure tc center lh-copy mt4">
+            se of their proven effectiveness against other viruses in the same family, there is confidence existing
+            disinfection sprays will work on this new strain.
+          </p>
+
+          <h3 className="tc f5-ns mt5">What is coronavirus?</h3>
+
+          <p className="measure tc center lh-copy mt4">
+            Coronavirus is the overarching name given to a family of viruses which includes many strains, some of which
+            responsible for other global crises such as the SARS (Severe Acute Respiratory Syndrome) outbreak in 2002.
+          </p>
+          <p className="measure tc center lh-copy mt4">
+            aviruses are transmitted between humans and animals, and can cause a range of illnesses from common colds
+            vere respiratory diseases2.It is understood the virus is predominantly spread via close contact with a
+            person who has the symptoms of the illness such as breathing difficulties, fever, cough or shortness of
+            breath.
+          </p>
+          <p className="measure tc center lh-copy mt4">
+            This new strain of coronavirus has been named "COVID-19" and is being commonly referred to as the Wuhan
+            Coronavirus, based on the area where it originated in China.
+          </p>
+          <p className="measure tc center lh-copy mt4">
+            the World Health Organisation (WHO) works with agencies across the world to develop specific medicines, and
+            vaccines, a key focus of efforts has been to try and prevent the spread of the virus through travel and good
+            hygiene practices.
+          </p>
+        </div>
+      </div>
+
+      <div style={{ backgroundColor: '#FFBC00' }}>
+        <div className="mw8 ph3 pv5 center">
+          <h2 className="tc f2-ns mt0">Get a free quote</h2>
+          <div className="tc f4 lh-solid">
+            <p className="ma0">07813 246 247 — 08000 226 247</p>
+            <p className="ma0 mt1">
+              <a href="mailto:help@247handyman.co.uk" className="link near-black">
+                help @247handyman.co.uk
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div className="bg-near-white">
+        <div className="mw8 ph3 pv5 center">
+          <h2 className="tc f2-ns">Locations</h2>
+          <ul className="lh-copy list tc pa0">
+            <li>Abridge</li>
+            <li>Barkingside</li>
+            <li>Buckhurst Hill</li>
+            <li>Chigwell</li>
+            <li>Chingford</li>
+            <li>Clayhall</li>
+            <li>Debden</li>
+            <li>Epping Forest</li>
+            <li>Ilford</li>
+            <li>Loughton</li>
+            <li>Redbridge</li>
+            <li>Romford</li>
+            <li>South Woodford</li>
+            <li>Theydon Bois</li>
+            <li>Walthan Abbey</li>
+            <li>Wanstead</li>
+            <li>Woodford</li>
+          </ul>
+        </div>
+      </div>
+
+      <div>
+        <div className="mw8 ph3 pv5 center">
+          <h2 className="tc f2-ns">Other services</h2>
+
+          <p className="measure tc center lh-copy">We offer a variety of services, here are the most popular ones</p>
+
+          <div className="cf tc">
+            {commonServices.map((service, i) => (
+              <div key={service.title.trim()} className="fl-ns w-25-ns mb3 mb0-ns pv2 ph3">
+                {service.icon && (
+                  <div className="center mb3" style={{ width: 40, height: 40 }}>
+                    <img src={service.icon} />
+                  </div>
+                )}
+
+                <h3 className="f5">{service.title}</h3>
+                <ul className="list pa0 lh-copy f5">
+                  {service.list.map((item, index) => (
+                    <li key={item + i}>{item}</li>
+                  ))}
+                </ul>
+              </div>
+            ))}
+          </div>
+
+          <p className="mt3 measure tc center lh-copy">
+            Can't find what you're after? Hop over to our{' '}
+            <NextLink href="/services">
+              <a className="link near-black hover-silver b">Services page</a>
+            </NextLink>{' '}
+            for a more complete list!
+          </p>
+        </div>
+      </div>
+
+      <div className="bg-dark-gray white">
+        <div className="mw8 ph3 pv5 center">
+          <div className="cf">
+            <div className="fl-ns w-25-ns mb3 mb0-ns pv2 pr3">
+              <h3 className="f5">Contact</h3>
+              <ul className="list pa0 lh-copy f5">
+                <li>
+                  <a href="mailto:help@247handyman.co.uk" className="link white hover-silver">
+                    help @247handyman.co.uk
+                  </a>
+                </li>
+                <li>07813 246 247</li>
+                <li>08000 226 247</li>
+                <li></li>
+              </ul>
+            </div>
+          </div>
+
+          <p className="mt5 white-50 tr">&copy; 2020 247Handyman. All rights reserved.</p>
+        </div>
       </div>
     </div>
-  </div>
-);
+  );
+};
 
 export default AntiViral;
