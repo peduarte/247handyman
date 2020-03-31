@@ -28,7 +28,7 @@ const AntiViral = () => {
 
         <div className="ph3 pb4 pa3-ns absolute-ns header-email">
           <a href="mailto:help@247handyman.co.uk" className="f5 ttu link white hover-silver">
-            help @247handyman.co.uk
+            help@247handyman.co.uk
           </a>
         </div>
       </header>
@@ -169,7 +169,7 @@ const AntiViral = () => {
             <p className="mb0 mt4">07813 246 247 — 08000 226 247</p>
             <p className="ma0 mt1">
               <a href="mailto:help@247handyman.co.uk" className="link white">
-                help @247handyman.co.uk
+                help@247handyman.co.uk
               </a>
             </p>
           </div>
@@ -230,7 +230,7 @@ const AntiViral = () => {
             <p className="ma0">07813 246 247 — 08000 226 247</p>
             <p className="ma0 mt1">
               <a href="mailto:help@247handyman.co.uk" className="link near-black">
-                help @247handyman.co.uk
+                help@247handyman.co.uk
               </a>
             </p>
           </div>
@@ -305,7 +305,7 @@ const AntiViral = () => {
               <ul className="list pa0 lh-copy f5">
                 <li>
                   <a href="mailto:help@247handyman.co.uk" className="link white hover-silver">
-                    help @247handyman.co.uk
+                    help@247handyman.co.uk
                   </a>
                 </li>
                 <li>07813 246 247</li>
