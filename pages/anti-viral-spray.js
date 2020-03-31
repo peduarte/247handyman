@@ -37,28 +37,29 @@ const AntiViral = () => {
         <div className="mw8 ph3 pv5 center">
           <h2 className="tc f2-ns">About this service</h2>
           <p className="measure tc center lh-copy">
-            e introducing a new service to contribute to the eradication of this pandemic and therefore help the NHS to
-            cope with the high demand for patients.
+            We are introducing a new service to contribute to the eradication of this pandemic and therefore help the
+            NHS to cope with the high demand for patients.
           </p>
 
           <h3 className="tc f3-ns mt5">What is it?</h3>
           <p className="measure tc center lh-copy">
-            fection and sanitation of surfaces and floor areas to prevent and stop the spread of viruses and bacterias.
+            Disinfection and sanitation of surfaces and floor areas to prevent and stop the spread of viruses and
+            bacterias.
           </p>
 
           <h3 className="tc f3-ns mt5">Where is it done?</h3>
           <p className="measure tc center lh-copy">
-            de your house or your business, mainly on the footpath area, near the porch or front door, on the driveway,
-            on the tyres of your car (if it is parked on the driveway) and surrounding areas.
+            Outside your house or your business, mainly on the footpath area, near the porch or front door, on the
+            driveway, on the tyres of your car (if it is parked on the driveway) and surrounding areas.
           </p>
 
           <h3 className="tc f3-ns mt5">How is it done?</h3>
           <p className="measure tc center lh-copy">
-            ervice is done with no contact with the house or business occupants.You don't need to meet us in front of
-            your house or premises.Stay inside!
+            The service is done with no contact with the house or business occupants.You don't need to meet us in front
+            of your house or premises.Stay inside!
           </p>
           <p className="measure tc center lh-copy mt4">
-            fessional with all personal protective equipment, using a spray machine sprays a disinfectant solution
+            A professional with all personal protective equipment, using a spray machine sprays a disinfectant solution
             killing the viruses and bacterias at 99.999%.
           </p>
           <p className="measure tc center lh-copy mt4">All payments are online - paypal or bank transfer.</p>
@@ -93,8 +94,8 @@ const AntiViral = () => {
               We have limited slots available so when we reach our capacity we will stop bookings until further notice.
             </li>
             <li className="lh-copy">
-              pplication is limited to a maximum of 15 minutes of spraying (so if you have a big property and want all
-              the protection you can buy multiple applications).
+              Each application is limited to a maximum of 15 minutes of spraying (so if you have a big property and want
+              all the protection you can buy multiple applications).
             </li>
             <li className="lh-copy">When you book multiple applications you are guaranteed to be served.</li>
             <li>Our chemical solution is not harmful to the surfaces , people, animals and plants.</li>
@@ -194,7 +195,7 @@ const AntiViral = () => {
             proven to be effective at destroying those germs.
           </p>
           <p className="measure tc center lh-copy mt4">
-            se of their proven effectiveness against other viruses in the same family, there is confidence existing
+            Because of their proven effectiveness against other viruses in the same family, there is confidence existing
             disinfection sprays will work on this new strain.
           </p>
 
@@ -205,8 +206,8 @@ const AntiViral = () => {
             responsible for other global crises such as the SARS (Severe Acute Respiratory Syndrome) outbreak in 2002.
           </p>
           <p className="measure tc center lh-copy mt4">
-            aviruses are transmitted between humans and animals, and can cause a range of illnesses from common colds
-            vere respiratory diseases2.It is understood the virus is predominantly spread via close contact with a
+            Coronaviruses are transmitted between humans and animals, and can cause a range of illnesses from common
+            colds vere respiratory diseases2.It is understood the virus is predominantly spread via close contact with a
             person who has the symptoms of the illness such as breathing difficulties, fever, cough or shortness of
             breath.
           </p>
@@ -215,9 +216,9 @@ const AntiViral = () => {
             Coronavirus, based on the area where it originated in China.
           </p>
           <p className="measure tc center lh-copy mt4">
-            the World Health Organisation (WHO) works with agencies across the world to develop specific medicines, and
-            vaccines, a key focus of efforts has been to try and prevent the spread of the virus through travel and good
-            hygiene practices.
+            While the World Health Organisation (WHO) works with agencies across the world to develop specific
+            medicines, and vaccines, a key focus of efforts has been to try and prevent the spread of the virus through
+            travel and good hygiene practices.
           </p>
         </div>
       </div>
