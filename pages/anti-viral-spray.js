@@ -186,9 +186,9 @@ const AntiViral = () => {
           </h3>
 
           <p className="measure tc center lh-copy mt4">
-            the Wuhan Coronavirus is new , no one can yet test their coronavirus disinfectant products specifically his
-            strain of the virus.However, coronaviruses are part of the “enveloped viruses” family, which includes other
-            well-known and identified diseases such as influenza.
+            Given the Wuhan Coronavirus is new , no one can yet test their coronavirus disinfectant products
+            specifically his strain of the virus.However, coronaviruses are part of the “enveloped viruses” family,
+            which includes other well-known and identified diseases such as influenza.
           </p>
           <p className="measure tc center lh-copy mt4">
             Current coronavirus disinfectant sprays have been tested against existing enveloped viruses and have been
