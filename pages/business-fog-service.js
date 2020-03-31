@@ -91,9 +91,9 @@ const BusinessFogService = () => {
             <li className="lh-copy">Museums and Galleries </li>
             <li className="lh-copy">Spas and massage parlours </li>
             <li className="lh-copy">Casinos and betting shops </li>
-            <li className="lh-copy">all indoor leisure and sports facilities including gyms </li>
+            <li className="lh-copy">All indoor leisure and sports facilities including gyms </li>
             <li className="lh-copy">Vehicles</li>
-            <li className="lh-copy">and anywhere the virus can live</li>
+            <li className="lh-copy">...and anywhere the virus can live</li>
           </ul>
         </div>
       </div>
