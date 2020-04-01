@@ -34,8 +34,8 @@ const Home = () => (
         <h2 className="tc f2-ns mt0">Anti-viral outdoor spray and Fog service</h2>
         <div className="tc f4 lh-solid">
           <p className="measure tc center lh-copy">
-            We are introducing a new service to contribute to the eradication of this pandemic and therefore help the
-            NHS to cope with the high demand for patients.
+            Disinfection and sanitation of surfaces and floor areas to prevent and stop the spread of viruses and
+            bacterias.
           </p>
           <p className="mb0 mt5 f5 mw5 center">
             <NextLink href="/anti-viral-spray">
@@ -51,11 +51,11 @@ const Home = () => (
     <div className="bg-dark-gray white">
       <div className="mw8 ph3 pv5 center">
         <h2 className="tc f2-ns mt0 red lh-solid mb0">New for business</h2>
-        <h2 className="tc f2-ns mt0">Disinfection spray and fogging services</h2>
+        <h2 className="tc f2-ns mt0">Disinfection spray and fog services</h2>
         <div className="tc f4 lh-solid">
           <p className="measure tc center lh-copy">
-            We are introducing a new service to contribute to the eradication of this pandemic. This is dedicated to
-            businesses only.
+            Disinfect your workplace or business premises and protect your staff and customers with our virus
+            sanitation.
           </p>
           <p className="mb0 mt5 f5 mw5 center">
             <NextLink href="/business-fog-service">
