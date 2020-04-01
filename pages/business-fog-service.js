@@ -37,8 +37,8 @@ const BusinessFogService = () => {
         <div className="mw8 ph3 pv5 center">
           <h2 className="tc f2-ns">About this service</h2>
           <p className="measure tc center lh-copy">
-            We are introducing a new service to contribute to the eradication of this pandemic. This is dedicated to
-            businesses only.
+            We are introducing a new service to contribute to the eradication of this pandemic.{' '}
+            <strong>This is dedicated to businesses only.</strong>
           </p>
 
           <h3 className="tc f3-ns mt5">What is it?</h3>

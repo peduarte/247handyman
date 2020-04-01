@@ -48,10 +48,30 @@ const Home = () => (
       </div>
     </div>
 
+    <div className="bg-dark-gray white">
+      <div className="mw8 ph3 pv5 center">
+        <h2 className="tc f2-ns mt0 red lh-solid mb0">New for business</h2>
+        <h2 className="tc f2-ns mt0">Disinfection spray and fogging services</h2>
+        <div className="tc f4 lh-solid">
+          <p className="measure tc center lh-copy">
+            We are introducing a new service to contribute to the eradication of this pandemic. This is dedicated to
+            businesses only.
+          </p>
+          <p className="mb0 mt5 f5 mw5 center">
+            <NextLink href="/business-fog-service">
+              <a className="link button-reset flex items-center justify-center h2 f5 ph3 bg-red hover-bg-dark-red white bn lh-solid br1 tc">
+                Find out more
+              </a>
+            </NextLink>
+          </p>
+        </div>
+      </div>
+    </div>
+
     <div>
       <div className="mw8 ph3 pv5 center">
         <div className="cf tc">
-          {benefits.map(benefit => (
+          {benefits.map((benefit) => (
             <div key={benefit.title.trim()} className="fl-ns w-25-ns mb3 mb0-ns pv2 ph3">
               {benefit.icon && (
                 <div className="center mb3" style={{ width: 44, height: 44 }}>
