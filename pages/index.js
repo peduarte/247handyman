@@ -28,7 +28,7 @@ const Home = () => (
       </div>
     </header>
 
-    <div className="bg-near-black white">
+    {/* <div className="bg-near-black white">
       <div className="mw8 ph3 pv5 center">
         <h2 className="tc f2-ns mt0 red lh-solid mb0">NEW</h2>
         <h2 className="tc f2-ns mt0">Anti-viral outdoor spray and Fog service</h2>
@@ -66,7 +66,7 @@ const Home = () => (
           </p>
         </div>
       </div>
-    </div>
+    </div> */}
 
     <div>
       <div className="mw8 ph3 pv5 center">
