@@ -185,7 +185,7 @@ const Home = () => (
             <h3 className="f5 ma0">
               <a
                 className="link near-black"
-                href="https://www.yell.com/biz/247-handyman-co-uk-woodford-green-901468999/"
+                href="https://www.yell.com/biz/247handyman-co-uk-woodford-green-4189721/"
                 title="Yell Reviews"
                 target="blank"
               >
@@ -217,7 +217,7 @@ const Home = () => (
               <a
                 className="link near-black"
                 href="https://www.google.co.uk/search?q=247handyman&oq=247handyman&aqs=chrome..69i57j69i60j69i61j69i59.2095j0j7&sourceid=chrome&ie=UTF-8#lrd=0x47d8a0cd6da6ebb9:0x8f2fc1c8122859ef,1,"
-                title="Yell Reviews"
+                title="Google Reviews"
                 target="blank"
               >
                 Google
