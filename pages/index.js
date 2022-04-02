@@ -12,13 +12,13 @@ const Home = () => (
     <header className="tc relative bg-near-white">
       <div className="cover relative" style={{ backgroundImage: 'url(/hero.jpg)', height: 0, paddingTop: '50%' }}></div>
 
-      <div className="pa4 pa0-ns absolute-ns mw7 header-content">
+      <div className="pa4 pa0-ns absolute-ns header-content">
         <h1 className="f3 f2-m f1-l fw8 lh-solid ttu ma0">247Handyman</h1>
         <h2 className="f3 f2-m f1-l fw8 lh-solid ttu ma0 light-silver">Home repairs expert since 2002</h2>
       </div>
 
       <div className="ph3 pa3-ns absolute-ns header-phone">
-        <span className="f5 ttu">07813 246 247 – 08000 226 247</span>
+        <span className="f5 ttu">UK: +44 7813 246 247 / PT: +351 965 65 66 67</span>
       </div>
 
       <div className="ph3 pb4 pa3-ns absolute-ns header-email">
